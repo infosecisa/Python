@@ -1,0 +1,5 @@
+peso = input("Insira o seu peso, por favor: ")
+altura = input("Insira a sua altura, por favor: ")
+imc = float(peso) / (float(altura)*float(altura))
+imcnovo = int(imc)
+print("O seu imc é: ", imcnovo)
